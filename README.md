@@ -17,3 +17,9 @@ if sumd<n:
 
     else:
         print("Number %d is defective" % (n))
+        
+elif sumd>n:
+    print("Number %d is abundant" % (n))
+
+else:
+    print("Number %d is perfect" % (n))
